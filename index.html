@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body><!--========== class = "scale-cv" ==========-->
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Rajesh</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon' ></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon' ></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt nav__icon' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon' ></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class='bx bx-award nav__icon' ></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon' ></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/rajesh.jpg" alt="" class="home__img">
+                            
+                                <h1 class="home__title">RAJESH <b>KUMAR</b></h1>
+                                <h3 class="home__profession">Software Developer</h3>
+                                
+                                <!--Button to download your CV saved in the pdf folder. Available for mobile.-->
+                                <div>
+                                    <a download="" href="assets/pdf/RajeshResumeCv.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Bangalore
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> rajeshk200015@email.com
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i> 7033389734
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+                        
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://github.com/KumarRajesh2021/" target="_blank" class="social__link">
+                                <i class='bx bxl-github social__icon' ></i>@github
+                            </a>
+
+                            <a href="https://in.linkedin.com/in/rajesh-kumar-940321171/" target="_blank" class="social__link">
+                                <i class='bx bxl-linkedin-square social__icon' ></i>@linkedin
+                            </a>
+
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">Software Developer with 2+ years of experience in various technical fields like ReactJs, Angular, NodeJs, Java, JavaScript.I have experience in domains like Retail, Banking and Insurance, delivered projects with tight deadlines in agile way.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+                    
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title"><i class='bx bxs-graduation' ></i> BACHELOR OF COMPUTER SCIENCE & ENGINEERING</h3>
+                                    <span class="education__studies">KLS Gogte Institute Of Technology</span>
+                                    <span class="education__year">2015 - 2019</span>
+                                    <span class="education__grade"><i class='bx bx-medal'></i>9.5CGPA</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">SCIENCE - CBSE 12th Board</h3>
+                                    <span class="education__studies">DAV Public School</span>
+                                    <span class="education__year">2013 - 2014</span>
+                                    <span class="education__grade"><i class='bx bx-medal'></i>Grade A</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">CBSE 10th Board</h3>
+                                    <span class="education__studies">DAV Public School</span>
+                                    <span class="education__year">2011 - 2012</span>
+                                    <span class="education__grade"><i class='bx bx-medal'></i>9.8CGPA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Html
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Css
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>JavaScript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Sass
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Firebase
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Python
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>React
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Angular
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Java
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>NodeJs
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span>Spring Boot
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">SYSTEM ENGINEER | DEVELOPER</h3>
+                                    <span class="experience__company">From Jul 2019 to present | Tata Consultancy Services</span>
+                                    <p class="experience__description">Software Development with 2+ years of experience (React,Angular,Java,NodeJs).</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">SDE PROJECT INTERN</h3>
+                                    <span class="experience__company">From Jan 2019 to May 2019 | Capillary Technologies</span>
+                                    <p class="experience__description">Web Development Intern (Angular,Java,Dockernetes,Kubernetes).</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">TELECOM NETWORKING PROJECT INTERN</h3>
+                                    <span class="experience__company">From May 2017 to Jul 2017 | BSNL</span>
+                                    <p class="experience__description">Networking and Tele-Communication .</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">World Intellectual Property Organization – WIPO(2019)</h3>
+                                <p class="certificate__description">WIPO Intellectual Property Rights Certication. Credential ID FtiUCWNlmJ</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Microsoft Certified: Azure Fundamentals(2021)</h3>
+                                <p class="certificate__description">Microsoft Azure Certification,
+                                    <a href="https://www.credly.com/badges/bf524f29-c36a-4c29-8b93-aee0d728c852.">See credential</a></p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Business English preliminary - University of Cambridge(2019)</h3>
+                                <p class="certificate__description">Certified by Cambridge University for Business English preliminary.Certificate No.:0054504784</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Udemy React and Java Certification(2021)</h3>
+                                <p class="certificate__description">Certified by Udemy for course completion</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Programming for Everybody Specialization(2018)</h3>
+                                <p class="certificate__description">Certified by Coursera for course completion</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== Organizations ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">Organizations</h2>
+
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Associate Member</span>
+                                <h3 class="references__title">Rotaract Club of GIT(Rotary Club)</h3>
+                                <ul class="references__contact">
+                                    <li>Aug 2015 - Jul 2017</li>
+                                    <li>As an associate member of KLS GIT, BELGAUM, chapter of ROTARACT CLUB OF GIT, Involved in Traffic awareness and Road safety projects/campaigns, promoting and advertising students friendly GK App(oust app) for children in schools around Belgaum.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span>Hindi
+                                </li>                 
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section-title">Interest</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-code-alt interests__icon' ></i>
+                                <span class="interests__name">Programming</span>
+                            </div>
+                        
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon'></i>
+                                <span class="interests__name">Music</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon' ></i>
+                                <span class="interests__name">Travel</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon' ></i>
+                                <span class="interests__name">Read</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon' ></i>
+                                <span class="interests__name">Fitness</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
