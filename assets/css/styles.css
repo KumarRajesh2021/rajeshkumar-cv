@@ -501,11 +501,13 @@ img{
   gap: .25rem;
 }
 
-.references__subtitle{
+.references__subtitle,
+.section__subtitle{
   color: var(--text-color-light);
 }
 
 .references__subtitle,
+.section__subtitle,
 .references__contact{
   font-size: var(--smaller-font-size);
 }
@@ -622,8 +624,8 @@ bottom: 5rem;
   }
 
   .languages__content{
-    grid-template-columns: repeat(3, max-content);
-    column-gap: 3.5rem;
+    grid-template-columns: repeat(2, max-content);
+    column-gap: 1rem;
   }
 
   .interests__container{
